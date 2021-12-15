@@ -1,9 +1,4 @@
-const API_KEYS = [
-  "AIzaSyCvUU_NtToV6LAnNhfBYE03D3RQf-sIpgQ",
-  "AIzaSyDJMCGyCaJ18TFn4vvehwMZ_veTOGM5-ro",
-  "AIzaSyDUMZqAWA6ZOAtwBorQ-ei4YppZpRP3EDk",
-  "AIzaSyBouHycavQhn2pRbHbkSGAaECHQx_JcqeY",
-];
+import { YOUTUBE_API_KEYS as API_KEYS } from "./API_KEYS";
 
 const fetchTrailer = (query) => {
   const fetchURL = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=${query
