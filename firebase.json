@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "yogiraj-netflix-clone",
+    "public": "build",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
